@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+
+}
+a{
+    font-size: 3em;
+    left: 80px;
+    top: 30px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    
+}
+h1 {
+    font-size: 4em  ;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+tr{
+    color: white;
+}
+.list{
+    top: 250px;
+    left:200px ;
+    position: absolute;
+    
+}
+li{
+    height: 5em;
+    width: 200px;
+}
+.sm{
+    
+    font-size: 25px;
+    list-style: none;
+    color: white;
+}
+input{
+    height: 3em;
+    width: 300px;
+}
+.mes{
+    height: 5em;
+    
+}
+button{
+    height: 2em;
+    width: 70px; 
+    background-color: green;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}
+.info{
+    top: 250px;
+    left: 700px;
+    position: absolute;
+    color: white;
+}

@@ -1,0 +1,131 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    
+    
+}
+.proi{
+    top: 100px;
+    position: absolute;
+    
+    color: white;
+    padding: 100px;
+    padding-right: 1210px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    
+}
+img{
+    top: 70px;
+    left: 800px;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    box-shadow: 7px 7px 11px gray;
+    border: 20px;
+    
+    border-radius: 100px;
+}    
+.socialicon{
+    top: 595px;
+    left: 800px;
+    
+    color: white;
+    padding: 10px;
+    position: absolute;
+}
+.socialicon a:hover{
+    color: blueviolet;
+}
+.socialicon a{
+    font-size: 3em;
+    cursor: pointer;
+    margin: 20px;
+    
+}
+.nam{
+    font-size: 4em;
+}
+.HH{
+    font-size: 3em;
+    top: 30px;
+    left: 80px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+h3{
+    left: 330px;
+    top: 190px;
+    font-size: 2em;
+    position: absolute;
+}
+p{
+    width: 40%;
+    position: absolute;
+}
+
+.hom{
+    left: 80px;
+    top: 10px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.list{
+    top: 40px;
+    left: 700px;
+    color: white;
+    position: absolute;
+}
+.ee{
+    text-decoration: none;
+}
+.ski{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    color: blueviolet;
+}
+ul li{
+    font-size: 1.3em;
+    padding-left: 60px;
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.res{
+    top: 550px;
+    left: 110px;
+    padding: 14px;
+    background-color: blueviolet;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px grey;
+    
+    
+}
+.res:hover{
+    box-shadow:2px 2px 3px white inset,0px 0px 3px black inset;
+}
+.reli{
+    text-decoration: none;
+    color: white;
+}
+.ee{
+    color: white;
+}
+.ct{
+    text-decoration: none;
+    color: white;
+}

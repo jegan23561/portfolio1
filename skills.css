@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background: #333;
+    text-transform: uppercase;
+}
+.ho,a{
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.ski{
+    width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.27), 0 10px 10px rgba(0,0,0,0.22);
+    justify-content: center;
+    align-items: center;
+    
+}
+.ski,li{
+    
+    padding: 10px;
+}
+.bar{
+    background: gray;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1pc 3pc rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(-28,-8,-28,-1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+    
+}
+.css{
+    width: 70%;
+    animation:css 3s;
+}
+.js{
+    width: 10%;
+    animation:js 3s;
+}
+.python{
+    width: 50%;
+    animation:python 3s;
+}
+.sql{
+    width: 60%;
+    animation:sql 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 90%;
+    }
+
+}
+@keyframes css{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 70%;
+    }
+
+}
+@keyframes js{
+    0%{
+        
+        width: 0%
+    }
+    100%{
+        width: 1%;
+    }
+
+}
+@keyframes python{
+    0%{
+        width: 0%
+    }
+    100%{
+        width: 50%;
+    }
+
+}
+@keyframes sql{
+    0%{    
+        width: 0%
+    }
+    100%{
+        width: 60%;
+    }
+
+}
+
+
